@@ -1,0 +1,30 @@
+{
+  "template": "sert/sert.jpg",
+  "font": "sert/RussoOne-Regular.ttf",
+  "font_size": 88,
+  "text_color": {"r": 255, "g": 255, "b": 255},
+  "stroke_width": 0,
+  "fields": {
+    "course": {
+      "x": 886,
+      "y": 847,
+      "alignment": "center",
+      "vertical_align": "bottom"
+    },
+    "name": {
+      "x": 893,
+      "y": 667,
+      "alignment": "center",
+      "vertical_align": "bottom",
+      "uppercase": true
+    },
+    "date": {
+      "x": 406,
+      "y": 1119,
+      "alignment": "center",
+      "vertical_align": "bottom",
+      "font_size": 60
+    }
+  },
+  "output_format": "PNG"
+}
