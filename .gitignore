@@ -1,1 +1,44 @@
+# --- Python: кеш и компиляция ---
+__pycache__/
+*.py[cod]
+*$.py.class
+*.so
+.Python
 
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+.venv
+
+# --- IDE и редакторы (PyCharm, VS Code и др.) ---
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# --- OS: мусор от проводника ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Тестирование и отчёты ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# --- Логи и временные файлы ---
+*.log
+*.tmp
+*.temp
+
+# --- Amvera / Деплой ---
+# amvera.yml и requirements.txt должны быть в репозитории!
+# Не добавляйте их в .gitignore
